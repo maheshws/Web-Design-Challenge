@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Latitude vs. Cloudiness</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../Resources/style.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../index.html">Latitude</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar" style="float: right">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="./LatitudeMaxTemp.html">Max Temperature</a></li>
+                        <li><a href="./LatitudeHumidity.html">Humidity</a></li>
+                        <li><a href="./LatitudeCloudiness.html">Cloudiness</a></li>
+                        <li><a href="./LatitudeWindspeed.html">Wind Speed</a></li>
+                    </ul>
+                </li>
+                <li><a href="./Comparison.html">Comparison</a></li>
+                <li><a href="./cities.html">Data</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <div class="box">
+                    <div class="header">
+                        <h2 class="title">Cloudiness</h2>
+                    </div>
+                    <div class="content">
+                        <img src="../assets/images/Fig3.png" alt="Latitude vs. Cloudiness" class="img-responsive">
+                        <p class="category">From City Latitude vs Cloudiness, it doesn’t look like any direct relationship between latitude and cloudiness.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <div class="box">
+                    <div class="header">
+                        <h2 class="title">Visualizations</h2>
+                    </div>
+                    <div class="content">
+                        <a href="./LatitudeMaxTemp.html"><img src="../assets/images/Fig1.png" alt="Latitude vs. Max Temperature" height="180" width="180"></a>
+                        <a href="./LatitudeHumidity.html"><img src="../assets/images/Fig2.png" alt="Latitude vs. Humidity" height="180" width="180"></a>
+                        <a href="./LatitudeCloudiness.html"><img src="../assets/images/Fig3.png" alt="Latitude vs. Cloudiness" height="180" width="180"></a>
+                        <a href="./LatitudeWindspeed.html"><img src="../assets/images/Fig4.png" alt="Latitude vs. Wind Speed" height="180" width="180"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
